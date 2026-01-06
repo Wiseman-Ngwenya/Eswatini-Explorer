@@ -1,0 +1,16 @@
+eswatini-tourism/
+│
+├── index.html
+├── style.css
+├── script.js
+├── images/ (directory for your images)
+│   ├── hero-bg.jpg
+│   ├── mlilwane-wildlife.jpg
+│   ├── sibebe-rock.jpg
+│   ├── ezulwini-valley.jpg
+│   ├── hlane-national-park.jpg
+│   ├── mantenga-falls.jpg
+│   ├── malolotja-nature.jpg
+│   ├── luxury-lodge.jpg
+│   └── cultural-village.jpg
+└── README.txt

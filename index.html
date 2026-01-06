@@ -1,0 +1,678 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eswatini Explorer | Discover the Kingdom's Hidden Gems</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Playfair+Display:wght@400;700;800&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/x-icon" href="images/favicon.ico">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <a href="#" class="logo">
+                <span class="logo-icon">🇸🇿</span>
+                <span>Eswatini<span class="logo-highlight">Explorer</span></span>
+            </a>
+            <button class="menu-toggle" id="menuToggle">
+                <i class="fas fa-bars"></i>
+            </button>
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#destinations">Destinations</a></li>
+                <li><a href="#accommodation">Accommodation</a></li>
+                <li><a href="#activities">Activities</a></li>
+                <li><a href="#tips">Travel Tips</a></li>
+                <li><a href="#contact" class="btn-nav">Contact Us</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="hero-overlay">
+            <div class="hero-content">
+                <h1>Discover the Kingdom of Eswatini</h1>
+                <p class="hero-subtitle">Experience breathtaking landscapes, rich culture, and unforgettable adventures in Africa's last absolute monarchy</p>
+                <div class="hero-buttons">
+                    <a href="#destinations" class="btn-hero">Explore Destinations</a>
+                    <a href="#accommodation" class="btn-hero btn-outline">Find Accommodation</a>
+                </div>
+                <div class="hero-stats">
+                    <div class="stat">
+                        <h3>50+</h3>
+                        <p>Tourist Attractions</p>
+                    </div>
+                    <div class="stat">
+                        <h3>12</h3>
+                        <p>Nature Reserves</p>
+                    </div>
+                    <div class="stat">
+                        <h3>24/7</h3>
+                        <p>Adventure Awaits</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="hero-image">
+            <img src="images/hero-bg.jpg" alt="Eswatini landscape with mountains and traditional huts">
+        </div>
+    </section>
+
+    <!-- Introduction -->
+    <section class="intro-section">
+        <div class="container">
+            <h2 class="section-title">Welcome to Eswatini</h2>
+            <p class="section-subtitle">A hidden gem in Southern Africa</p>
+            <div class="intro-content">
+                <p>Eswatini (formerly Swaziland) is a small, landlocked kingdom in Southern Africa known for its wilderness reserves and festivals showcasing traditional Swazi culture. Marked by mountainous landscapes, safari parks, and lush valleys, Eswatini offers an authentic African experience away from the crowds.</p>
+                <p>From the majestic Sibebe Rock to the wildlife-rich Hlane National Park, our guide will help you discover the best places to visit, stay, and explore in this beautiful kingdom.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Top Destinations -->
+    <section class="destinations-section" id="destinations">
+        <div class="container">
+            <h2 class="section-title">Top Destinations</h2>
+            <p class="section-subtitle">Must-visit places in the Kingdom</p>
+            
+            <div class="destinations-grid">
+                <!-- Destination 1: Sibebe Rock -->
+                <div class="destination-card">
+                    <div class="card-image">
+                        <img src="images/sibebe-rock.jpg" alt="Sibebe Rock formation">
+                        <span class="card-badge">Natural Wonder</span>
+                    </div>
+                    <div class="card-content">
+                        <h3>Sibebe Rock</h3>
+                        <p class="location"><i class="fas fa-map-marker-alt"></i> Near Mbabane</p>
+                        <p class="description">The world's second-largest granite rock formation, offering breathtaking views and hiking opportunities.</p>
+                        <div class="card-details">
+                            <div class="detail">
+                                <i class="fas fa-clock"></i>
+                                <div>
+                                    <h4>Best Time to Visit</h4>
+                                    <p>April - October (Dry season)</p>
+                                </div>
+                            </div>
+                            <div class="detail">
+                                <i class="fas fa-hiking"></i>
+                                <div>
+                                    <h4>Activities</h4>
+                                    <p>Hiking, Rock Climbing, Photography</p>
+                                </div>
+                            </div>
+                            <div class="detail">
+                                <i class="fas fa-wallet"></i>
+                                <div>
+                                    <h4>Entry Fee</h4>
+                                    <p>E50 per person (approx. $3)</p>
+                                </div>
+                            </div>
+                        </div>
+                        <a href="#" class="card-link">Learn More <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+
+                <!-- Destination 2: Mlilwane Wildlife Sanctuary -->
+                <div class="destination-card">
+                    <div class="card-image">
+                        <img src="images/mlilwane-wildlife.jpg" alt="Mlilwane Wildlife Sanctuary">
+                        <span class="card-badge">Wildlife</span>
+                    </div>
+                    <div class="card-content">
+                        <h3>Mlilwane Wildlife Sanctuary</h3>
+                        <p class="location"><i class="fas fa-map-marker-alt"></i> Ezulwini Valley</p>
+                        <p class="description">Eswatini's oldest protected area, home to diverse wildlife including zebras, antelopes, and hippos.</p>
+                        <div class="card-details">
+                            <div class="detail">
+                                <i class="fas fa-clock"></i>
+                                <div>
+                                    <h4>Opening Hours</h4>
+                                    <p>6:00 AM - 6:00 PM Daily</p>
+                                </div>
+                            </div>
+                            <div class="detail">
+                                <i class="fas fa-hiking"></i>
+                                <div>
+                                    <h4>Activities</h4>
+                                    <p>Game Drives, Horseback Riding, Mountain Biking</p>
+                                </div>
+                            </div>
+                            <div class="detail">
+                                <i class="fas fa-wallet"></i>
+                                <div>
+                                    <h4>Entry Fee</h4>
+                                    <p>E80 per person (approx. $5)</p>
+                                </div>
+                            </div>
+                        </div>
+                        <a href="#" class="card-link">Learn More <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+
+                <!-- Destination 3: Mantenga Cultural Village -->
+                <div class="destination-card">
+                    <div class="card-image">
+                        <img src="images/cultural-village.jpg" alt="Mantenga Cultural Village">
+                        <span class="card-badge">Cultural Experience</span>
+                    </div>
+                    <div class="card-content">
+                        <h3>Mantenga Cultural Village</h3>
+                        <p class="location"><i class="fas fa-map-marker-alt"></i> Ezulwini Valley</p>
+                        <p class="description">A living museum showcasing traditional Swazi lifestyle, huts, and cultural performances.</p>
+                        <div class="card-details">
+                            <div class="detail">
+                                <i class="fas fa-clock"></i>
+                                <div>
+                                    <h4>Opening Hours</h4>
+                                    <p>8:00 AM - 5:00 PM Daily</p>
+                                </div>
+                            </div>
+                            <div class="detail">
+                                <i class="fas fa-hiking"></i>
+                                <div>
+                                    <h4>Activities</h4>
+                                    <p>Cultural Tours, Traditional Dance, Craft Shopping</p>
+                                </div>
+                            </div>
+                            <div class="detail">
+                                <i class="fas fa-wallet"></i>
+                                <div>
+                                    <h4>Entry Fee</h4>
+                                    <p>E100 per person (approx. $6)</p>
+                                </div>
+                            </div>
+                        </div>
+                        <a href="#" class="card-link">Learn More <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+
+                <!-- Destination 4: Hlane Royal National Park -->
+                <div class="destination-card">
+                    <div class="card-image">
+                        <img src="images/hlane-national-park.jpg" alt="Hlane Royal National Park">
+                        <span class="card-badge">Big Game</span>
+                    </div>
+                    <div class="card-content">
+                        <h3>Hlane Royal National Park</h3>
+                        <p class="location"><i class="fas fa-map-marker-alt"></i> Northeast Eswatini</p>
+                        <p class="description">Eswatini's largest park, home to lions, elephants, rhinos, and over 400 bird species.</p>
+                        <div class="card-details">
+                            <div class="detail">
+                                <i class="fas fa-clock"></i>
+                                <div>
+                                    <h4>Best Time to Visit</h4>
+                                    <p>May - September (Wildlife viewing)</p>
+                                </div>
+                            </div>
+                            <div class="detail">
+                                <i class="fas fa-hiking"></i>
+                                <div>
+                                    <h4>Activities</h4>
+                                    <p>Game Drives, Bird Watching, Guided Walks</p>
+                                </div>
+                            </div>
+                            <div class="detail">
+                                <i class="fas fa-wallet"></i>
+                                <div>
+                                    <h4>Entry Fee</h4>
+                                    <p>E120 per person (approx. $7)</p>
+                                </div>
+                            </div>
+                        </div>
+                        <a href="#" class="card-link">Learn More <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+
+                <!-- Destination 5: Malolotja Nature Reserve -->
+                <div class="destination-card">
+                    <div class="card-image">
+                        <img src="images/malolotja-nature.jpg" alt="Malolotja Nature Reserve">
+                        <span class="card-badge">Hiking Paradise</span>
+                    </div>
+                    <div class="card-content">
+                        <h3>Malolotja Nature Reserve</h3>
+                        <p class="location"><i class="fas fa-map-marker-alt"></i> Northwest Eswatini</p>
+                        <p class="description">A pristine wilderness area with deep valleys, waterfalls, and the country's highest peak.</p>
+                        <div class="card-details">
+                            <div class="detail">
+                                <i class="fas fa-clock"></i>
+                                <div>
+                                    <h4>Opening Hours</h4>
+                                    <p>6:00 AM - 6:00 PM Daily</p>
+                                </div>
+                            </div>
+                            <div class="detail">
+                                <i class="fas fa-hiking"></i>
+                                <div>
+                                    <h4>Activities</h4>
+                                    <p>Hiking, Canopy Tour, Fishing, Picnicking</p>
+                                </div>
+                            </div>
+                            <div class="detail">
+                                <i class="fas fa-wallet"></i>
+                                <div>
+                                    <h4>Entry Fee</h4>
+                                    <p>E60 per person (approx. $4)</p>
+                                </div>
+                            </div>
+                        </div>
+                        <a href="#" class="card-link">Learn More <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+
+                <!-- Destination 6: Ezulwini Valley -->
+                <div class="destination-card">
+                    <div class="card-image">
+                        <img src="images/ezulwini-valley.jpg" alt="Ezulwini Valley">
+                        <span class="card-badge">Entertainment Hub</span>
+                    </div>
+                    <div class="card-content">
+                        <h3>Ezulwini Valley</h3>
+                        <p class="location"><i class="fas fa-map-marker-alt"></i> Between Mbabane & Manzini</p>
+                        <p class="description">Known as "The Valley of Heaven," featuring casinos, hotels, craft markets, and hot springs.</p>
+                        <div class="card-details">
+                            <div class="detail">
+                                <i class="fas fa-clock"></i>
+                                <div>
+                                    <h4>Best Time to Visit</h4>
+                                    <p>Year-round destination</p>
+                                </div>
+                            </div>
+                            <div class="detail">
+                                <i class="fas fa-hiking"></i>
+                                <div>
+                                    <h4>Activities</h4>
+                                    <p>Shopping, Dining, Casinos, Spas</p>
+                                </div>
+                            </div>
+                            <div class="detail">
+                                <i class="fas fa-wallet"></i>
+                                <div>
+                                    <h4>Main Attractions</h4>
+                                    <p>Most attractions have individual fees</p>
+                                </div>
+                            </div>
+                        </div>
+                        <a href="#" class="card-link">Learn More <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Accommodation Section -->
+    <section class="accommodation-section" id="accommodation">
+        <div class="container">
+            <h2 class="section-title">Where to Stay</h2>
+            <p class="section-subtitle">Accommodation options for every budget</p>
+            
+            <div class="accommodation-tabs">
+                <button class="acc-tab-btn active" data-category="luxury">Luxury Lodges</button>
+                <button class="acc-tab-btn" data-category="midrange">Mid-Range Hotels</button>
+                <button class="acc-tab-btn" data-category="budget">Budget & Guest Houses</button>
+                <button class="acc-tab-btn" data-category="camps">Camping Sites</button>
+            </div>
+            
+            <div class="accommodation-content">
+                <!-- Luxury Lodges -->
+                <div class="acc-category active" id="luxury">
+                    <div class="acc-card">
+                        <div class="acc-image">
+                            <img src="images/luxury-lodge.jpg" alt="Royal Swazi Spa">
+                        </div>
+                        <div class="acc-info">
+                            <h3>Royal Swazi Spa</h3>
+                            <p class="acc-location"><i class="fas fa-map-marker-alt"></i> Ezulwini Valley</p>
+                            <div class="acc-rating">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <span>5.0 (120 reviews)</span>
+                            </div>
+                            <p class="acc-description">A luxurious retreat featuring a world-class spa, golf course, casino, and fine dining restaurants.</p>
+                            <div class="acc-details">
+                                <div class="detail">
+                                    <i class="fas fa-bed"></i>
+                                    <span>Rooms: 125</span>
+                                </div>
+                                <div class="detail">
+                                    <i class="fas fa-swimming-pool"></i>
+                                    <span>Pool & Spa</span>
+                                </div>
+                                <div class="detail">
+                                    <i class="fas fa-wifi"></i>
+                                    <span>Free WiFi</span>
+                                </div>
+                            </div>
+                            <div class="acc-price">
+                                <h4>From E2,500/night</h4>
+                                <p>($150 approx.)</p>
+                            </div>
+                            <a href="#" class="acc-book-btn">Check Availability</a>
+                        </div>
+                    </div>
+                    
+                    <div class="acc-card">
+                        <div class="acc-image">
+                            <img src="images/lodge-2.jpg" alt="Mlilwane Rest Camp">
+                        </div>
+                        <div class="acc-info">
+                            <h3>Mlilwane Rest Camp</h3>
+                            <p class="acc-location"><i class="fas fa-map-marker-alt"></i> Mlilwane Wildlife Sanctuary</p>
+                            <div class="acc-rating">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star-half-alt"></i>
+                                <span>4.5 (95 reviews)</span>
+                            </div>
+                            <p class="acc-description">Chalet accommodation within the wildlife sanctuary, offering unique bush experiences.</p>
+                            <div class="acc-details">
+                                <div class="detail">
+                                    <i class="fas fa-bed"></i>
+                                    <span>Rooms: 45</span>
+                                </div>
+                                <div class="detail">
+                                    <i class="fas fa-utensils"></i>
+                                    <span>Restaurant</span>
+                                </div>
+                                <div class="detail">
+                                    <i class="fas fa-hiking"></i>
+                                    <span>Guided Tours</span>
+                                </div>
+                            </div>
+                            <div class="acc-price">
+                                <h4>From E1,800/night</h4>
+                                <p>($110 approx.)</p>
+                            </div>
+                            <a href="#" class="acc-book-btn">Check Availability</a>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Budget & Guest Houses -->
+                <div class="acc-category" id="budget">
+                    <div class="acc-card">
+                        <div class="acc-image">
+                            <img src="images/guest-house.jpg" alt="Mbabane Guest House">
+                        </div>
+                        <div class="acc-info">
+                            <h3>Mbabane Guest House</h3>
+                            <p class="acc-location"><i class="fas fa-map-marker-alt"></i> Mbabane City Center</p>
+                            <div class="acc-rating">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <span>4.0 (78 reviews)</span>
+                            </div>
+                            <p class="acc-description">Affordable, clean accommodation in the capital city with easy access to attractions.</p>
+                            <div class="acc-details">
+                                <div class="detail">
+                                    <i class="fas fa-bed"></i>
+                                    <span>Rooms: 22</span>
+                                </div>
+                                <div class="detail">
+                                    <i class="fas fa-car"></i>
+                                    <span>Free Parking</span>
+                                </div>
+                                <div class="detail">
+                                    <i class="fas fa-wifi"></i>
+                                    <span>Free WiFi</span>
+                                </div>
+                            </div>
+                            <div class="acc-price">
+                                <h4>From E450/night</h4>
+                                <p>($27 approx.)</p>
+                            </div>
+                            <a href="#" class="acc-book-btn">Check Availability</a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="seasonal-note">
+                    <i class="fas fa-info-circle"></i>
+                    <p><strong>Note:</strong> Prices vary by season. Peak season (June-August) rates are typically 20-30% higher. Always book in advance during holidays and festivals.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Activities Section -->
+    <section class="activities-section" id="activities">
+        <div class="container">
+            <h2 class="section-title">Things to Do</h2>
+            <p class="section-subtitle">Adventure, culture, and relaxation in Eswatini</p>
+            
+            <div class="activities-grid">
+                <div class="activity-card">
+                    <div class="activity-icon">
+                        <i class="fas fa-hiking"></i>
+                    </div>
+                    <h3>Hiking & Trekking</h3>
+                    <p>Explore trails at Sibebe Rock, Malolotja Nature Reserve, and Mahamba Gorge. Guided hikes available.</p>
+                    <ul class="activity-list">
+                        <li><strong>Difficulty:</strong> Easy to Challenging</li>
+                        <li><strong>Duration:</strong> 2-8 hours</li>
+                        <li><strong>Cost:</strong> E50-E300 per person</li>
+                    </ul>
+                </div>
+                
+                <div class="activity-card">
+                    <div class="activity-icon">
+                        <i class="fas fa-car"></i>
+                    </div>
+                    <h3>Game Drives</h3>
+                    <p>Spot the Big 5 at Hlane National Park or enjoy wildlife viewing at Mlilwane Sanctuary.</p>
+                    <ul class="activity-list">
+                        <li><strong>Best Time:</strong> Early morning or late afternoon</li>
+                        <li><strong>Duration:</strong> 2-3 hours</li>
+                        <li><strong>Cost:</strong> E150-E400 per person</li>
+                    </ul>
+                </div>
+                
+                <div class="activity-card">
+                    <div class="activity-icon">
+                        <i class="fas fa-music"></i>
+                    </div>
+                    <h3>Cultural Experiences</h3>
+                    <p>Visit traditional villages, watch Swazi dancing, and learn about local crafts and customs.</p>
+                    <ul class="activity-list">
+                        <li><strong>Where:</strong> Mantenga Cultural Village</li>
+                        <li><strong>Duration:</strong> 1-2 hours</li>
+                        <li><strong>Cost:</strong> E80-E150 per person</li>
+                    </ul>
+                </div>
+                
+                <div class="activity-card">
+                    <div class="activity-icon">
+                        <i class="fas fa-shopping-bag"></i>
+                    </div>
+                    <h3>Craft Market Shopping</h3>
+                    <p>Buy authentic Swazi crafts at Ezulwini Valley markets and Mbabane Craft Market.</p>
+                    <ul class="activity-list">
+                        <li><strong>Best Buys:</strong> Sisal baskets, wood carvings, candles</li>
+                        <li><strong>Bargaining:</strong> Expected (25-30% discount)</li>
+                        <li><strong>Markets:</strong> Open daily 8am-5pm</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Travel Tips -->
+    <section class="tips-section" id="tips">
+        <div class="container">
+            <h2 class="section-title">Travel Tips</h2>
+            <p class="section-subtitle">Essential information for your Eswatini trip</p>
+            
+            <div class="tips-content">
+                <div class="tip-card">
+                    <h3><i class="fas fa-calendar-alt"></i> Best Time to Visit</h3>
+                    <p><strong>Dry Season (May-September):</strong> Best for wildlife viewing and hiking. Cooler temperatures.</p>
+                    <p><strong>Wet Season (October-April):</strong> Lush landscapes, fewer tourists, but some roads may be difficult.</p>
+                </div>
+                
+                <div class="tip-card">
+                    <h3><i class="fas fa-passport"></i> Visa Requirements</h3>
+                    <p>Most visitors don't need a visa for stays up to 30 days. Check with your embassy for current requirements.</p>
+                    <p><strong>Currency:</strong> Lilangeni (SZL), tied to South African Rand (ZAR). Both accepted.</p>
+                </div>
+                
+                <div class="tip-card">
+                    <h3><i class="fas fa-sun"></i> Climate</h3>
+                    <p><strong>Summer (Oct-Mar):</strong> 22°C to 30°C, afternoon thunderstorms</p>
+                    <p><strong>Winter (Apr-Sep):</strong> 10°C to 20°C, dry and sunny</p>
+                    <p>Pack layers for temperature changes, especially in mountains.</p>
+                </div>
+                
+                <div class="tip-card">
+                    <h3><i class="fas fa-car"></i> Getting Around</h3>
+                    <p><strong>Car Rental:</strong> Available at airports and major cities. Drive on left side.</p>
+                    <p><strong>Taxis:</strong> Use registered taxis. Agree on fare before departure.</p>
+                    <p><strong>Local Transport:</strong> Khumbis (minibus taxis) are cheap but crowded.</p>
+                </div>
+                
+                <div class="tip-card">
+                    <h3><i class="fas fa-shield-alt"></i> Safety & Health</h3>
+                    <p>Eswatini is generally safe for tourists. Take normal precautions in cities at night.</p>
+                    <p><strong>Malaria:</strong> Low risk in most areas, but prophylaxis recommended for lowveld regions.</p>
+                    <p><strong>Water:</strong> Tap water is generally safe in cities, bottled water available everywhere.</p>
+                </div>
+                
+                <div class="tip-card">
+                    <h3><i class="fas fa-language"></i> Language & Culture</h3>
+                    <p><strong>Official Languages:</strong> Swati and English (widely spoken)</p>
+                    <p><strong>Greeting:</strong> Handshake is common. Use right hand or both hands as a sign of respect.</p>
+                    <p><strong>Dress Code:</strong> Modest dress appreciated, especially in rural areas and cultural sites.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact-section" id="contact">
+        <div class="container">
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h2 class="section-title">Need More Information?</h2>
+                    <p>Contact the Eswatini Tourism Authority for official information, or use our contact form for specific questions about destinations.</p>
+                    
+                    <div class="contact-details">
+                        <div class="contact-item">
+                            <i class="fas fa-phone-alt"></i>
+                            <div>
+                                <h4>Eswatini Tourism Authority</h4>
+                                <p>+268 2404 2531</p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-envelope"></i>
+                            <div>
+                                <h4>Email</h4>
+                                <p>info@eswatinitourism.co.sz</p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <div>
+                                <h4>Main Office</h4>
+                                <p>Tourism House, Ezulwini, Eswatini</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="emergency-contacts">
+                        <h4><i class="fas fa-exclamation-triangle"></i> Emergency Numbers</h4>
+                        <p>Police: 999 | Ambulance: 977 | Fire: 933</p>
+                    </div>
+                </div>
+                
+                <div class="contact-form">
+                    <h3>Send Us a Message</h3>
+                    <form id="inquiryForm">
+                        <div class="form-group">
+                            <input type="text" placeholder="Your Name" required>
+                            <input type="email" placeholder="Your Email" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="text" placeholder="Subject" required>
+                            <select required>
+                                <option value="" disabled selected>Interested In</option>
+                                <option value="accommodation">Accommodation</option>
+                                <option value="destinations">Destinations</option>
+                                <option value="activities">Activities</option>
+                                <option value="transport">Transport</option>
+                                <option value="other">Other</option>
+                            </select>
+                        </div>
+                        <textarea placeholder="Your message..." rows="5" required></textarea>
+                        <button type="submit" class="submit-btn">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-col">
+                    <h3>Eswatini Explorer</h3>
+                    <p>Your comprehensive guide to discovering the Kingdom of Eswatini. Plan your perfect vacation with our curated recommendations and travel tips.</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-pinterest"></i></a>
+                    </div>
+                </div>
+                <div class="footer-col">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#destinations">Destinations</a></li>
+                        <li><a href="#accommodation">Accommodation</a></li>
+                        <li><a href="#activities">Activities</a></li>
+                        <li><a href="#tips">Travel Tips</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Useful Resources</h4>
+                    <ul>
+                        <li><a href="#">Official Tourism Site</a></li>
+                        <li><a href="#">Weather Forecast</a></li>
+                        <li><a href="#">Currency Converter</a></li>
+                        <li><a href="#">Maps & Directions</a></li>
+                        <li><a href="#">Event Calendar</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Newsletter</h4>
+                    <p>Subscribe for travel updates and Eswatini news</p>
+                    <form class="newsletter-form">
+                        <input type="email" placeholder="Your email address" required>
+                        <button type="submit">Subscribe</button>
+                    </form>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2023 Eswatini Explorer. This is a demonstration website for portfolio purposes. All information is for illustrative use only.<br>It was created by Wiseman Ngwenya</p>
+                <p class="disclaimer">Note: Prices and opening hours are approximate and subject to change. Always verify information with official sources before travel.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
